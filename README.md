@@ -8,3 +8,6 @@ there's better and more efficient DHT11 readers out
 there that you should pick above this.
 I take no responsibility for anything to do with
 this program.
+
+On linux, compile with "g++ main.cpp -o DHT11 -std=c++11 -lwiringPi".
+and on Visual Studio 2017, just copy paste main.cpp over the default "Blink" project...probably.
